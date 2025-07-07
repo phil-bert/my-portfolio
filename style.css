@@ -1,0 +1,60 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #BDDDFC;
+}
+header {
+    background-color: #88BDF2;
+}
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+.heading {
+    align-items: center;
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 30px;
+}
+#personal{
+    background-color: brown;
+    border-left: 4px solid blue;
+    width: 100%;
+}
+#recipe{
+    background-color: brown;
+    border-left: 4px solid blue;
+    width: 100%;
+}
+#timetable{
+    background-color: brown;
+    border-left: 4px solid blue;
+    width: 100%;
+}
+#Contact{
+    color: #000;
+}
+footer {
+    background-color: #6A89A7;
+    margin-top: 5%;
+    padding: 15px;
+    text-align: center;
+    color: #000;
+}
